@@ -1,0 +1,16 @@
+source("rankall.R")
+
+rankall("heart failure", "best")
+rankall("pneumonia", "worst")
+rankall("heart attack", 10)
+rankall("heart failure", 295)
+rankall("heart attack")
+rankall("pneumonia")
+rankall("heart attack")
+rankall("hert attack")
+rankall("heart attack")
+rankall("heart failure")
+rankall("heart failure", 4)
+rankall("heart attack", "worst")
+rankall("heart attack", 5000)
+
